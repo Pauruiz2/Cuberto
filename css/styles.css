@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.h1 {
+    font-size: 1vw;
+    color: black;
+}
+
+.h2 {
+    font-size: 2vw;
+    color: grey
+}
+
+.h3 {
+    font-size: 1vw;
+    color: black
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header h1 {
+    font-size: 6vw;
+    color: teal;
+}
+
+.one-column {
+    padding: 7%;
+    float: left;
+    width: 100%;
+}
+
+.one-column h1 {
+    font-size: 12vh;
+    text-align: center;
+}
+
+.two-column {
+    padding: 7%;
+    float: left;
+    width: 50%;
+}
+
+.two-column img {
+    width: 50%;
+}
+
+.two-column h1 {
+    font-size: 5vw;
+}
+
+.two-column p {
+    font-size: 2vw;
+}
+
+.four-column {
+    padding: 7%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column h2 {
+    font-size: 3vh;
+}
+
+.withoutpadding {
+    padding: 7%;
+    margin-bottom: -5px;
+}
+
+#blackfondo h1,
+#blackfondo h2 {
+    font-size: 20px;
+}
+
+#blackfondo h1 {
+    padding: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:700px) {
+    .two-column,
+    .three-column {
+        width: 100%;
+    }
+    .one-column {
+        padding: 7%;
+    }
+    .one-column h1 {
+        font-size: 6vw;
+    }
+    .two-column h1 {
+        font-size: 5vw;
+    }
+    .two-column p {
+        font-size: 4vh;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .four-column h2 {
+        font-size: 4vh;
+    }
+    .header h1 {
+        font-size: 14vh;
+    }
+    #blackfondo {
+        padding: 4% 3%;
+    }
+}
